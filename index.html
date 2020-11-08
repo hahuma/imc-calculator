@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>IMC Calculator</title>
+</head>
+<body>
+    <header class="header-container">
+        <h1>Fast IMC Calculator</h1>
+        <img src="public/images/body.svg" alt="corpo">
+    </header>
+    <div class="content">
+        <aside class="aside-container">
+            <div class="secondary-info">
+                <h1>O que é IMC?</h1>
+                <p>
+                    IMC é a sigla para Índice de Massa Corporal,que é um cálculo
+                    que serve para avaliar se a pessoa está dentro do seu peso ideal 
+                    em relação à altura. Assim, de acordo com o valor do resultado de IMC,
+                    a pessoa pode saber se está dentro do peso ideal, acima ou abaixo do
+                    peso desejado.
+                </p>
+            </div>
+        </aside>
+        <main class="main-container">
+            <div class="imc-calculator">
+                <form>
+                    <h1>Calcule o seu IMC</h1>
+                    <label for="weight">Seu Peso</label>
+                    <div>
+                        <input type="number" id="weight" name="weight" step="0.01" placeholder="Ex. 64,3" required>
+                        <span>Kg</span>
+                    </div>
+                    <label for="height">Sua Altura</label>
+                    <div>
+                        <input type="number" id="height" name="height" placeholder="Ex. 160" required>
+                        <span>Cm</span>
+                    </div>
+                    <button>Calcular</button>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
