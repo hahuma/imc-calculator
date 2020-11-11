@@ -32,7 +32,7 @@ body {
 .header-container {
     display: flex;
     justify-content: space-between;
-    height: 13%;
+    height: 5rem;
     align-items: center;
     background: var(--light-background-color);
 }
@@ -53,22 +53,25 @@ body {
 
 .content {
     display: flex;
-    height: 80%;
 }
 
 .content .aside-container,
 .content .main-container {
     display: flex;
     width: 50%;
-    height: 100%;
     align-items: center;
     justify-content: center;
+    min-height: 40rem;
 }
 
 .content .aside-container .secondary-info,
 .content .main-container .imc-calculator {
-    height: 80%;
+    height: 70%;
     width: 80%;
+    min-width: 30rem;
+    min-height: 30rem;
+    max-height: 40rem;
+    max-width: 40rem;
 }
 
 .content .aside-container .secondary-info h1 {
